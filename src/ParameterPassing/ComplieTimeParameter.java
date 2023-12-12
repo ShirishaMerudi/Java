@@ -29,11 +29,14 @@ public class ComplieTimeParameter
 		
 	}
 	
+	public String info(String msg)
+	{
+		
+		return msg;
+		
+	}
 	
-	
-	
-	
-	
+		
 
 	public static void main(String[] args) 
 	{
@@ -44,9 +47,13 @@ public class ComplieTimeParameter
 		c1.sub(100, 20);
 		
 		System.out.println("Multiplication is :" +c1.mul(5, 5));
-		//or
+		//or	 
 		int result = c1.mul(15, 2);
 		System.out.println("Multiplication is :" +result);
+		
+		String Message = c1.info("Hello");
+		System.out.println("String message is:" +Message);
+		
 		
 		
 	}
