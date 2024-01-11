@@ -1,6 +1,6 @@
 package ControlFlowStatements;
 
-public class NestedForLoop {
+public class NestedPatterns {
 
 	public static void main(String[] args) {
 

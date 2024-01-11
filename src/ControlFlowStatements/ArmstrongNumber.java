@@ -6,13 +6,13 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
-		System.out.println("Enter a number");
+		System.out.println("Enter a 4 digit number");
 		int num = sc.nextInt();
 		int r, sum=0,temp = num;
 		while (num>0)
 		{
 			r = num % 10;
-			sum = sum +(r*r*r);
+			sum = sum +(r*r*r*r);
 			num = num/10;
 			
 		}
